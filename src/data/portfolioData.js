@@ -30,8 +30,8 @@ export const personalData = {
   // UPDATE THESE with your exact URLs if needed:
   socialLinks: {
     github: "https://github.com/PoornimaRadhaKrishnanD",
-    linkedin: "https://www.linkedin.com/in/poornima-r-k",
-    leetcode: "https://leetcode.com/u/Poornima_R_K/", // Profile handle: Poornima_R_K
+    linkedin: "https://www.linkedin.com/in/poornima-r-k-1b3298310/",
+    leetcode: "https://leetcode.com/u/Poornima_R_K/",
     email: "mailto:poornimark.23aim@kongu.edu",
     phone: "tel:+919042533625"
   },

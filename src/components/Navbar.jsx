@@ -148,13 +148,14 @@ export const Navbar = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <a
             href={personalData.resumePath}
+            download="Poornima_R_K_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-secondary btn-sm"
             style={{ display: 'inline-flex' }}
-            title="Download or preview resume.pdf"
+            title="Download resume PDF"
           >
-            <Icon name="filetext" size={15} />
+            <Icon name="download" size={15} />
             <span>Resume</span>
           </a>
 
@@ -218,6 +219,7 @@ export const Navbar = () => {
             <div style={{ paddingTop: '0.75rem', marginTop: '0.5rem', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
               <a
                 href={personalData.resumePath}
+                download="Poornima_R_K_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={closeMenu}

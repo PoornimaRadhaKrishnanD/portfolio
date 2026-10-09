@@ -210,11 +210,12 @@ export const Contact = () => {
             <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(255, 255, 255, 0.08)' }}>
               <a
                 href={personalData.resumePath}
+                download="Poornima_R_K_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
                 style={{ width: '100%' }}
-                title="Download or preview resume.pdf"
+                title="Download resume PDF"
               >
                 <Icon name="download" size={17} />
                 <span>Download Resume (PDF)</span>
@@ -273,7 +274,7 @@ export const Contact = () => {
                     <div>
                       <div style={{ fontSize: '0.95rem', fontWeight: 600, color: '#ffffff' }}>LinkedIn</div>
                       <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>
-                        linkedin.com/in/poornima-r-k
+                        linkedin.com/in/poornima-r-k-1b3298310
                       </div>
                     </div>
                   </div>

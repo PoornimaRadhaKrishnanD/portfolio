@@ -111,12 +111,13 @@ export const Footer = () => {
 
               <a
                 href={personalData.resumePath}
+                download="Poornima_R_K_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: '#38bdf8', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontWeight: 600, marginTop: '0.25rem' }}
-                title="Download or preview resume.pdf"
+                title="Download resume PDF"
               >
-                <Icon name="filetext" size={15} />
+                <Icon name="download" size={15} />
                 <span>Download Resume (PDF)</span>
               </a>
             </div>

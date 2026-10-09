@@ -86,10 +86,11 @@ export const Hero = () => {
 
               <a
                 href={personalData.resumePath}
+                download="Poornima_R_K_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary"
-                title="Download or preview resume.pdf"
+                title="Download resume PDF"
               >
                 <Icon name="download" size={17} />
                 <span>Download Resume</span>
@@ -121,7 +122,7 @@ export const Hero = () => {
                   rel="noopener noreferrer"
                   className="btn btn-secondary btn-sm"
                   aria-label="LinkedIn Profile"
-                  title="LinkedIn: poornima-r-k"
+                  title="LinkedIn: poornima-r-k-1b3298310"
                   style={{ padding: '0.45rem 0.75rem' }}
                 >
                   <Icon name="linkedin" size={16} />
